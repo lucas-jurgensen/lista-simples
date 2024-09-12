@@ -6,6 +6,4 @@ Este projeto é um exemplo básico de como usar JavaScript para manipular a DOM 
 
 ### Implementações futuras
 - Estilização
-- Marcação de itens como feito
-- Remoção do último item
 - Salvar a lista para criar outra
