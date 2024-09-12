@@ -5,12 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lista de tarefas</title>
     </head>
+
+    <style>
+        .strike-through {
+            list-style-type: disc;
+            text-decoration: line-through;
+        }
+
+        li {
+            list-style-type: circle;
+        }
+    </style>
+
     <body>
         <p>Sua lista:</p>
         <ul></ul>
         <input class="add-list" type="text" placeholder="adicionar a lista" />
         <button class="add">Adicionar item</button>
-        <button class="remove">Limpar lista</button>
+        <button class="clear">Limpar lista</button>
+        <button class="remove">Remover</button>
     </body>
     <script src="script.js"></script>
 </html>
